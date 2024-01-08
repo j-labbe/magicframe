@@ -15,9 +15,7 @@ class ContentCreator:
         self.quote = Quote()
 
     def create_content(self):
-        r = self.weather.get_weather()
-        print(r)
-        weather_data, error = r
+        weather_data, error = self.weather.get_weather()
         if error:
             print(error)
             weather_data = {'current_temperature': 'N/A', 'forecast': 'N/A'}
