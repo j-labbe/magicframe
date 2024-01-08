@@ -1,5 +1,7 @@
 # magicframe
 
+![Example](example.png)
+
 Ever wonder how long it takes to get home? What about the weather for the week?
 
 Now you can see all of that and more with MagicFrame!
